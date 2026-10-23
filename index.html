@@ -15,9 +15,9 @@
       --paper: #f5f3ed;
       --ink: #20231e;
       --muted: #62665e;
-      --green: #295b43;
       --red: #b13b32;
-      --lime: #d2ee75;
+      --red-hover: #8f2d27;
+      --red-soft: #f0b3a9;
       --line: #d8d8ce;
       --display: "Playfair Display", Georgia, serif;
       --body: "DM Sans", sans-serif;
@@ -92,7 +92,7 @@
     .eyebrow::before {
       width: 24px;
       height: 2px;
-      background: var(--green);
+      background: var(--red);
       content: "";
     }
 
@@ -125,7 +125,7 @@
       align-items: center;
       gap: 12px;
       padding: 0 18px;
-      background: var(--green);
+      background: var(--red);
       color: white;
       font-size: 13px;
       font-weight: 600;
@@ -133,7 +133,7 @@
       transition: background 160ms ease, transform 160ms ease;
     }
 
-    .button:hover { background: #1e4934; transform: translateY(-2px); }
+    .button:hover { background: var(--red-hover); transform: translateY(-2px); }
 
     .text-link {
       color: var(--ink);
@@ -156,7 +156,7 @@
       right: -20px;
       bottom: -20px;
       left: 24px;
-      background: var(--lime);
+      background: var(--red-soft);
       content: "";
     }
 
